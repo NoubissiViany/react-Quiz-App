@@ -8,13 +8,13 @@ function Home() {
     <div>
       <div className="heading">
         <div>
-          <h2>React Quiz App</h2>
+          <h1>React Quiz App</h1>
           <p className="heading__p1">
             A simple quiz application coded in React.js
           </p>
         </div>
         <div>
-          <h2>Instructions</h2>
+          <h1>Instructions</h1>
           <p className="heading__p2">
             You will be asked questions and you will answer either true or
             false.
