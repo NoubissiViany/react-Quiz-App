@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import './Home.css';
 
 function Home() {
@@ -20,7 +19,7 @@ function Home() {
             false.
           </p>
         </div>
-        <Link to="/Questions" className="btn">
+        <Link to="/question1" className="btn">
           Start the Game!
         </Link>
       </div>
