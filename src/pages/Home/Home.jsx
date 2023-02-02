@@ -15,11 +15,11 @@ function Home() {
         <div>
           <h1>Instructions</h1>
           <p className="heading__p2">
-            You will be asked questions and you will answer either true or
-            false.
+            You will be asked questions and you will answer either True or
+            False.
           </p>
         </div>
-        <Link to="/question1" className="btn">
+        <Link to="/Questions/1" className="btn">
           Start the Game!
         </Link>
       </div>

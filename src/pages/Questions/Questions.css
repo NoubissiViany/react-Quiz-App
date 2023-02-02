@@ -1,5 +1,5 @@
 .Question__container {
-  max-width: 550px;
+  max-width: 600px;
   margin-inline: auto;
   margin-top: 7%;
 }
@@ -20,18 +20,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: rgba(128, 128, 128, 0.151);
   padding: 20px 7px;
 }
 
 .Question__p1,
 .Question__p2 {
   font-size: larger;
-  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Question__p1 {
-    font-weight: bold;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Question__p2 {
+  text-align: start;
+  margin-left: 23px;
 }
 
 .Question__btn {
@@ -56,6 +62,14 @@
 
 .Question__btn2 {
   background-color: red;
+}
+
+.Question__btn1:hover {
+  padding: 10px 25px;
+}
+
+.Question__btn2:hover {
+  padding: 10px 25px;
 }
 
 .Question__linkContainer {
