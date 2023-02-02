@@ -11,7 +11,9 @@ function Question() {
 
   const handleInput = (e) => {
     const val = e.target.value;
-    const alert = window.confirm(
+
+    // eslint-disable-next-line no-restricted-globals, no-alert
+    const alert = confirm(
       'Press OK if you are sure of your answer, otherwise Cancel.'
     );
 
