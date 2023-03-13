@@ -1,0 +1,36 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 7%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(216,220,31);
+}
+
+.heading__p1 {
+  font-style: italic;
+}
+
+.heading__p2 {
+  font-size: large;
+}
+
+.btn {
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
