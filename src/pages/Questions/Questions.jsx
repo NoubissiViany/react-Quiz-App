@@ -12,17 +12,10 @@ function Question() {
   const handleInput = (e) => {
     const val = e.target.value;
 
-    // eslint-disable-next-line no-restricted-globals, no-alert
-    const alert = confirm(
-      'Press OK if you are sure of your answer, otherwise Cancel.'
-    );
-
-    if (alert === true) {
-      if (id >= 10) {
-        navigate('/Result');
-      } else {
-        navigate(`/Questions/${+id + 1}`);
-      }
+    if (id >= 10) {
+      navigate('/Result');
+    } else {
+      navigate(`/Questions/${+id + 1}`);
     }
 
     if (val === questions[id].correct_answer) {

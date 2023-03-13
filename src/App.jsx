@@ -23,6 +23,8 @@ function App() {
     fetchData();
   }, []);
 
+  console.log(questions);
+
   return (
     <div className="App">
       <ApiContext.Provider value={{ questions, count, setCount }}>

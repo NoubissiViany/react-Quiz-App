@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import ApiContext from '../../context/Context';
 import './Home.css';
 
 function Home() {
+  const { setCount } = useContext(ApiContext);
+  setCount(0);
   return (
     <div>
       <div className="heading">
