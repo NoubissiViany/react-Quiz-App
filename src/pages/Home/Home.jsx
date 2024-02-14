@@ -10,7 +10,7 @@ function Home() {
     <div>
       <div className="heading">
         <div>
-          <h1>React Quiz App</h1>
+          <h1>Brain Buster App</h1>
           <p className="heading__p1">
             A simple quiz application coded in React.js
           </p>
